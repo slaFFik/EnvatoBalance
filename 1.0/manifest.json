@@ -1,0 +1,22 @@
+{
+	"name": "Envato Marketplaces Balance",
+	"version": "1.0",
+	"description": "Display earned money on all Envato Marketplaces",
+	
+    "icons": { "128": "envato.png" },
+
+    "options_page": "options.html",
+    "background": {
+        "scripts": ["jquery.js", "background.js"]
+    },
+    
+	"browser_action": {
+		"default_title": "Display earned money on all Envato Marketplaces",
+		"default_icon": "envato_icon.png"
+	},
+
+    "offline_enabled" : false,
+    
+	"permissions": [ "http://marketplace.envato.com/", "http://dl.dropbox.com/" ]
+
+}
