@@ -1,5 +1,6 @@
 {
 	"name": "Envato Marketplaces Balance",
+    "manifest_version": 2,
 	"version": "1.0",
 	"description": "Display earned money on all Envato Marketplaces",
 	
